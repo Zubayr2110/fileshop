@@ -25,7 +25,6 @@ function getdata() {
 }``
 getdata();
 
-// search function  
 srch.addEventListener('keyup', (e) => {
     const searchTerm = e.target.value.toLowerCase();
     const items = document.querySelectorAll('.item');
@@ -40,9 +39,3 @@ srch.addEventListener('keyup', (e) => {
     });
 });
 
-
-let cart = document.querySelector('.cart')
-let carticon = document.querySelector('.carticon');
-carticon.addEventListener('click', () => {
-    cart.style.display = 'block';
-});
